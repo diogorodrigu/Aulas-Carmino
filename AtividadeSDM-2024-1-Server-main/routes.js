@@ -6,4 +6,4 @@ function addRoutes(app) {
     filmes(app)
 }
 
-export default addRoutes
+export default addRoutes;

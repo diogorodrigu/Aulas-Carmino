@@ -1,0 +1,22 @@
+{
+  "frutas": {
+    "maçã": "maçã",
+    "pera": "pera",
+    "banana": "banana",
+    "goiaba": "goiaba",
+    "amora": "amora",
+    "limao": "limao"
+  },
+  "filmes": {
+    "id": "filme-01",
+    "nome": "O vento levou",
+    "ano": 1960,
+    "genero": "romance",
+    "[object Object]": {
+      "id": "filme-02",
+      "nome": "Clube da luta",
+      "ano": 1960,
+      "genero": "foda"
+    }
+  }
+}

@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdateFilicacaoDto = exports.CreateFiliacaoDto = void 0;
+exports.UpdateFiliacaoDto = exports.CreateFiliacaoDto = void 0;
 const class_validator_1 = require("class-validator");
 const mapped_types_1 = require("@nestjs/mapped-types");
 class CreateFiliacaoDto {
@@ -44,7 +44,7 @@ __decorate([
     (0, class_validator_1.IsInt)(),
     __metadata("design:type", Number)
 ], CreateFiliacaoDto.prototype, "userId", void 0);
-class UpdateFilicacaoDto extends (0, mapped_types_1.PartialType)(CreateFiliacaoDto) {
+class UpdateFiliacaoDto extends (0, mapped_types_1.PartialType)(CreateFiliacaoDto) {
 }
-exports.UpdateFilicacaoDto = UpdateFilicacaoDto;
+exports.UpdateFiliacaoDto = UpdateFiliacaoDto;
 //# sourceMappingURL=filiacao.dto.js.map

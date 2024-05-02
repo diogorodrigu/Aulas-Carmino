@@ -26,4 +26,5 @@ export class CreateFiliacaoDto {
   userId: number;
 }
 
-export class UpdateFilicacaoDto extends PartialType(CreateFiliacaoDto) {}
+export class UpdateFiliacaoDto extends PartialType(CreateFiliacaoDto) {}
+

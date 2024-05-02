@@ -7,13 +7,15 @@ import { Filiacao } from '../user/entity/filiacao.entity';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserService } from './service/user.service';
 import { UserController } from './controller/user.controller';
+import { FiliacaoService } from './service/filiacao.service';
+import { FiliacaoController } from './controller/filiacao.controller';
 
 @Module({
   imports: [
     DatabaseModule,
     TypeOrmModule.forFeature([User, Filiacao]),
   ],
-  controllers: [AppController, UserController],
-  providers: [AppService, UserService],
+  controllers: [AppController, UserController, FiliacaoController],
+  providers: [AppService, UserService, FiliacaoService],
 })
 export class UserModule {}

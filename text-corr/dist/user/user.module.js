@@ -16,6 +16,8 @@ const filiacao_entity_1 = require("../user/entity/filiacao.entity");
 const typeorm_1 = require("@nestjs/typeorm");
 const user_service_1 = require("./service/user.service");
 const user_controller_1 = require("./controller/user.controller");
+const filiacao_service_1 = require("./service/filiacao.service");
+const filiacao_controller_1 = require("./controller/filiacao.controller");
 let UserModule = class UserModule {
 };
 exports.UserModule = UserModule;
@@ -25,8 +27,8 @@ exports.UserModule = UserModule = __decorate([
             database_module_1.DatabaseModule,
             typeorm_1.TypeOrmModule.forFeature([user_entity_1.User, filiacao_entity_1.Filiacao]),
         ],
-        controllers: [app_controller_1.AppController, user_controller_1.UserController],
-        providers: [app_service_1.AppService, user_service_1.UserService],
+        controllers: [app_controller_1.AppController, user_controller_1.UserController, filiacao_controller_1.FiliacaoController],
+        providers: [app_service_1.AppService, user_service_1.UserService, filiacao_service_1.FiliacaoService],
     })
 ], UserModule);
 //# sourceMappingURL=user.module.js.map
